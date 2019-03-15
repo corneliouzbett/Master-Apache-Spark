@@ -2,8 +2,8 @@
 spark revolves around the concept of RDD, which is a fault-tolerant collection of elements that can be operated on in parallel.
 
 # Two ways to create RDDs
-    1. paralleizing an existing collection in your driver program.
-    2. referencing a dataset in an external storage system e.g shared filesystem, HDFS, HBase or any data source offering a Hadoop input format.
+   1. paralleizing an existing collection in your driver program.
+   2. referencing a dataset in an external storage system e.g shared filesystem, HDFS, HBase or any data source offering a Hadoop input format.
 
 # Parallelized Collections
 Parallelized collections are created by calling SparkContext’s parallelize method on an existing iterable or collection in your driver program. The elements of the collection are copied to form a distributed dataset that can be operated on in parallel.
