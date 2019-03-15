@@ -6,6 +6,8 @@ if __name__ == "__main__":
 
     lines = sc.textFile("in/word_count.text")
 
+    # lines.map(lambda s: len(s)).reduce(lambda a,b: a+b)
+
     words = lines.flatMap(lambda line: line.split(" "))
 
     wordCounts = words.countByValue()
