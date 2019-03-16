@@ -4,3 +4,7 @@ spark = SparkSession.builder\
     .appName("Python Spark SQL basic example")\
     .config("spark.some.config.option", "")
     .getOrCreate()
+
+df = spark.read.json("")
+
+df.show()
