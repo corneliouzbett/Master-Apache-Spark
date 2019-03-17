@@ -1,6 +1,7 @@
-def sayGoodNight(name):
-    print("Lovely night", name)
+import Messeger
+ #def sayGoodNight(name):
+ #   print("Lovely night", name)
 
 if __name__ == "__main__":
-    sayGoodNight("Bett")
+    Messeger.sayHello("Bett")
 
