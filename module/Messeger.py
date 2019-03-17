@@ -1,9 +1,9 @@
-class Greetings(self, name):
-    self.name = name
+class Greetings:
+    def __init__(self,name):
+        self.name = name
 
-
-    def sayHello():
+    def sayHello(self):
         print("Hello "+self.name)
 
-    def sayGoodMorning():
+    def sayGoodMorning(self):
         print("Good morning, "+self.name)
